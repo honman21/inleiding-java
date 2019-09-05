@@ -22,15 +22,15 @@ public class Tekenen4 extends Applet {
         g.setColor(Color.black);
         g.drawString("Hans", 160, 180);
         g.setColor(Color.black);
-        g.drawString("20", 30, 160);
+        g.drawString("20KG", 30, 160);
         g.setColor(Color.black);
-        g.drawString("40", 30, 140);
+        g.drawString("40KG", 30, 140);
         g.setColor(Color.black);
-        g.drawString("60", 30, 120);
+        g.drawString("60KG", 30, 120);
         g.setColor(Color.black);
-        g.drawString("80", 30, 100);
+        g.drawString("80KG", 30, 100);
         g.setColor(Color.black);
-        g.drawString("100", 30, 80);
+        g.drawString("100KG", 30, 80);
 
 
 
