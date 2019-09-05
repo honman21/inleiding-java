@@ -16,6 +16,8 @@ public class Tekenen3 extends Applet {
         g.fillRect(20, 45, 100, 25);
         g.setColor(Color.blue);
         g.fillRect(20, 70, 100, 25);
+        g.setColor(Color.white);
+        g.fillRect(20, 95, 5, 100);
 
     }
 }
