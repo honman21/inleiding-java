@@ -5,6 +5,7 @@ import java.applet.*;
 
 public class Tekenen4 extends Applet {
 
+
     public void init() {
     }
 
