@@ -9,6 +9,7 @@ public class Herhaling3 extends Applet {
     public void init() {}
 
     public void paint(Graphics g) {
+        setSize(1000,1000);
 
         int opteller = 1;
         int teller = -1;
@@ -16,13 +17,13 @@ public class Herhaling3 extends Applet {
         int teller3;
         int x = 0;
 
-        while(opteller < 15) {
+        while(opteller < 18) {
             opteller++;
             teller3 = teller + teller2;
             teller = teller2;
             teller2 = teller3;
             x += 25;
-            g.drawString("" + teller3, x, 250 );
+            g.drawString("" +teller3, x, 120 );
         }
     }
 }
